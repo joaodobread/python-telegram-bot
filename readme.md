@@ -32,3 +32,17 @@ A specification for adding human and machine readable meaning to commit messages
 <!--
 ```shell
 ``` -->
+
+## MongoDB
+
+Simple repository example
+
+```python
+from src.database.base_repository import Repository
+
+
+class User(Repository):
+    def __init__(self):
+        super().__init__("database", "collection")
+
+```
