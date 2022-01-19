@@ -10,6 +10,7 @@ pydotenv = "^0.0.7"
 environs = "^9.4.0"
 marshmallow = "^3.14.1"
 pymongo = {extras = ["srv"], version = "^4.0.1"}
+pyTelegramBotAPI = "^4.3.1"
 
 [tool.poetry.dev-dependencies]
 autopep8 = "^1.6.0"
